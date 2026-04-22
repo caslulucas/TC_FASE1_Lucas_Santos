@@ -7,7 +7,7 @@ Este repositório contém a entrega da **Fase 1 do Tech Challenge**, cujo objeti
 
 ## 📌 Visão Geral do Projeto
 
-O **ToggleMaster** é uma API REST responsável por gerenciar *feature flags*, permitindo ativar ou desativar funcionalidades dinamicamente, sem a necessidade de realizar um novo deploy da aplicação cliente.
+O **ToggleMaster** é uma API responsável por gerenciar *feature flags*, permitindo ativar ou desativar funcionalidades dinamicamente, sem a necessidade de realizar um novo deploy da aplicação cliente.
 
 Nesta fase do projeto, a aplicação é mantida como **monolítica**, priorizando simplicidade, baixo custo e rapidez de entrega, características adequadas para um MVP.
 
@@ -16,6 +16,7 @@ Nesta fase do projeto, a aplicação é mantida como **monolítica**, priorizand
 ## 🛠️ Tecnologias Utilizadas
 
 - Python  
+- Postman
 - Flask  
 - Docker  
 - Docker Compose  
@@ -54,29 +55,32 @@ http://localhost:5000/health
 A arquitetura proposta para a aplicação ToggleMaster na AWS segue boas práticas de segurança, isolamento de rede e alta disponibilidade, incluindo:
 
 - VPC dedicada
-- Sub-redes públicas e privadas
+- Sub-redes públicas e Sub-redes privadas
 - Instâncias EC2 para execução da API
 - Banco de dados RDS PostgreSQL em sub-rede privada
 - Internet Gateway
 - NAT Gateway
 - Application Load Balancer
+- Auto Scaling
 
 Essa arquitetura garante isolamento do banco de dados, acesso controlado à aplicação e preparação para escalabilidade futura.
 
 
 ## 🖼️ Diagrama de Arquitetura
 🔗 Link do diagrama (Miro):
-https://miro.com/app/board/uXjVGqtu7ks=/
+https://miro.com/app/board/uXjVGqtu7ks=/?share_link_id=559977596492
+
+<img width="518" height="358" alt="PrintDiagrama" src="https://github.com/user-attachments/assets/de660ecf-ad82-4976-9539-b71bde75c249" />
+
 
 
 ## 🎥 Vídeo de Demonstração
 O vídeo de demonstração apresenta:
 
-- Execução local da aplicação
+- Execução da aplicação localmente
 - Explicação da arquitetura
-- Aplicação rodando na AWS
+- Aplicação e arquitetura reduzida rodando na AWS
 - Demonstração das feature flags
-- Discussão sobre os princípios do 12-Factor App
 
 👉 Link do vídeo:
 INSERIR AQUI O LINK DO VÍDEO (YouTube ou Google Drive)
@@ -86,12 +90,10 @@ INSERIR AQUI O LINK DO VÍDEO (YouTube ou Google Drive)
 Os principais desafios enfrentados durante o Tech Challenge foram:
 
 - Compreensão da arquitetura monolítica da aplicação
-- Configuração correta de variáveis de ambiente
+- Configuração correta de variáveis de ambiente e security groups
 - Definição de uma arquitetura segura na AWS
-
-Optou-se por manter a arquitetura monolítica nesta fase por se tratar de um MVP, priorizando simplicidade, velocidade de entrega e validação do modelo de negócio.
 
 
 ## 👥 Participantes
 
-Lucas Soares do Santos 
+Lucas Soares do Santos
