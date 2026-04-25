@@ -83,8 +83,9 @@ O vídeo de demonstração apresenta:
 - Demonstração das feature flags
 
 👉 Link do vídeo:
-INSERIR AQUI O LINK DO VÍDEO (YouTube ou Google Drive)
-
+Explicação do diagrama - https://drive.google.com/file/d/1rkr-TtKCaSTRzxvVXevZVCIifhMew99g/view?usp=sharing
+Execução da aplicação localmente - https://drive.google.com/file/d/1McAn4H9ARL89jzKWHGuvZ2iePwYjPGar/view?usp=sharing
+Aplicação e arquitetura reduzida rodando na AWS - 
 
 ## ⚠️ Desafios e Decisões Tomadas
 Os principais desafios enfrentados durante o Tech Challenge foram:
