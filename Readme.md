@@ -73,20 +73,6 @@ https://miro.com/app/board/uXjVGqtu7ks=/?share_link_id=559977596492
 <img width="518" height="358" alt="PrintDiagrama" src="https://github.com/user-attachments/assets/de660ecf-ad82-4976-9539-b71bde75c249" />
 
 
-
-## 🎥 Vídeo de Demonstração
-O vídeo de demonstração apresenta:
-
-- Execução da aplicação localmente
-- Explicação da arquitetura
-- Aplicação e arquitetura reduzida rodando na AWS
-- Demonstração das feature flags
-
-👉 Link do vídeo:
-Explicação do diagrama - https://drive.google.com/file/d/1rkr-TtKCaSTRzxvVXevZVCIifhMew99g/view?usp=sharing
-Execução da aplicação localmente - https://drive.google.com/file/d/1McAn4H9ARL89jzKWHGuvZ2iePwYjPGar/view?usp=sharing
-Aplicação e arquitetura reduzida rodando na AWS - 
-
 ## ⚠️ Desafios e Decisões Tomadas
 Os principais desafios enfrentados durante o Tech Challenge foram:
 
