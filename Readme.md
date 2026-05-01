@@ -70,7 +70,8 @@ Essa arquitetura garante isolamento do banco de dados, acesso controlado à apli
 🔗 Link do diagrama (Miro):
 https://miro.com/app/board/uXjVGqtu7ks=/?share_link_id=559977596492
 
-<img width="518" height="358" alt="PrintDiagrama" src="https://github.com/user-attachments/assets/de660ecf-ad82-4976-9539-b71bde75c249" />
+<img width="1165" height="810" alt="Diagrama" src="https://github.com/user-attachments/assets/105bba06-943f-4f46-b0ec-168d07fb6438" />
+
 
 
 ## ⚠️ Desafios e Decisões Tomadas
